@@ -43,7 +43,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className={clicked?"bg-slate-900 text-white w-full flex flex-col shadow-md shadow-slate-300 sticky top-0 py-2 min-h-screen":"bg-slate-900 text-white w-full  shadow-md shadow-slate-300 sticky top-0 py-2"}>
+    <nav className={clicked?"bg-slate-900 text-white w-full flex flex-col shadow-md shadow-slate-300 sticky top-0 py-2 min-h-screen":"bg-slate-900 text-white w-full  shadow-md shadow-slate-300 sticky top-0 z-50 py-2"}>
       <div className="w-full md:w-[80%] mx-auto flex justify-between items-center p-2 px-3">
         <div className="flex items-center order-2 md:order-1">
           <Image

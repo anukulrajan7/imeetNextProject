@@ -1,16 +1,15 @@
-import Image from 'next/image'
-import { Inter } from 'next/font/google'
-import Navbar from '@/components/Navbar'
-import Footer from '@/components/Footer'
+
+
 import Layout from '@/components/layout'
 import Hero from '@/components/hero'
 import Cards from '@/components/cards'
+import Banner from '@/components/Banner'
 
-const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   return (
    <Layout>
+    <Banner children={"/29493.jpg"}/>
     <Hero/>
     <Cards/>
    </Layout>
