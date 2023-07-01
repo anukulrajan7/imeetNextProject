@@ -154,7 +154,7 @@ const AboutUs = () => {
       </p>
     </div>
                 <div className="md:w-[50%]">
-                  <Image src="/rd.jpg" width="1000" height="1000" className=" object-cover rounded-md"></Image>
+                  <Image src="/rd.jpg" width="1000" alt="text" height="1000" className=" object-cover rounded-md"></Image>
                 </div>
               
               </div>
@@ -166,7 +166,7 @@ const AboutUs = () => {
         Whether you are a beginner or an experienced student, our platform offers a wide range of opportunities to enhance your knowledge and prepare you for a successful career in the tech field. Our team of industry experts and mentors are committed to guiding you through every step of your journey, ensuring you gain the skills and confidence required to stand out in the competitive job market.
       </p>
       <p className="first-letter:capitalize font-Mullish text-[18px] text-start  ">
-        At imeet, we believe in hands-on learning and providing real-world projects that allow you to apply your theoretical knowledge in practical scenarios. Our internship programs offer valuable industry exposure, allowing you to collaborate with professionals, build a strong network, and gain a deeper understanding of the tech industry's inner workings.
+        At imeet, we believe in hands-on learning and providing real-world projects that allow you to apply your theoretical knowledge in practical scenarios. Our internship programs offer valuable industry exposure, allowing you to collaborate with professionals, build a strong network, and gain a deeper understanding of the tech industrys inner workings.
       </p>
                 </div>
           <div className="bg-gray-200  w-full lg:w-[80%] py-9 px-4 rounded-md flex flex-col my-8 mx-auto ">

@@ -50,6 +50,7 @@ const Navbar = () => {
             src={"/logo.svg"}
             width={150}
             height={80}
+            alt="ss"
             className=" md:w-[120px]  w-[100px] lg:w-[130px]"
           ></Image>
         </div>
